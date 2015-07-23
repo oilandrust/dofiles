@@ -6,6 +6,8 @@
              '("Marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
 
+(set-default 'truncate-lines t)
+
 (add-hook 'haskell-mode-hook 'haskell-indentation-mode)
 (setq haskell-stylish-on-save t)
 
